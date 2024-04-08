@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: awsk8's
+Data:
+  Enviroment: prod
+  Owner: JamesBank
+  Class: V2
