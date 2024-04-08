@@ -8,7 +8,7 @@ metadata:
     demo: service
   
   spec:
-    conatiners:
+    containers:
     - name: nginx-pod
       image: nginx
       ports:
