@@ -10,7 +10,8 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      tier: nginx
+      app: nginx
+      tier: web
   # From now pods data will be taken
   template:
     metadata:
