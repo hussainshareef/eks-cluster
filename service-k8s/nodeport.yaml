@@ -27,4 +27,3 @@ spec:
   - protocol: TCP
     port: 80 #service-port
     targetPort: 80 #container-port
-    NodePort: 30007
