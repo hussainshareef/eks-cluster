@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: stable-alpine3.17-slim
+        image: 1.25.4
         ports:
         - containerPort: 80
